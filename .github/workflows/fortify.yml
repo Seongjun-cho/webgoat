@@ -92,10 +92,6 @@ jobs:
       - name: Perform SAST ssc-export
         uses: fortify/github-action/ssc-export@main
 
-branding:
-icon: 'shield'
-color: 'blue'
-
 
 
 
