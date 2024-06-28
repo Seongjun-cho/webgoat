@@ -83,7 +83,7 @@ jobs:
           # DO_WAIT: true                                  # Wait for scan completion, implied if 'DO_EXPORT: true'
           # DO_EXPORT: true                                # Export SAST results to GitHub code scanning dashboard
 
-      - name: 'Perform SAST scan'
+      - name: Perform SAST scan
         description: 'Perform a SAST scan on ScanCentral SAST'
         author: 'Fortify'
         runs:
