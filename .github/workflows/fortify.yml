@@ -58,7 +58,7 @@ jobs:
           ### Required configuration when integrating with Fortify Hosted / Software Security Center & ScanCentral
            SSC_URL: http://13.209.176.153:8080/ssc/                            # SSC URL
            SSC_TOKEN: f9672e49-8bcc-4123-bb8b-19be432cd9fd                        # SSC CIToken or AutomationToken
-           SC_SAST_TOKEN: ''        # ScanCentral SAST client auth token
+           SC_SAST_TOKEN: ""        # ScanCentral SAST client auth token
            SC_SAST_SENSOR_VERSION: 24.2.0.0150 # Sensor version on which to run the scan;
                                                                      # usually defined as organization or repo variable
           ### Optional configuration when integrating with Fortify Hosted / Software Security Center & ScanCentral
