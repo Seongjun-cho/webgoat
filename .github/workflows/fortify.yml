@@ -59,7 +59,7 @@ jobs:
       - name: Perform SAST package
         uses: fortify/github-action/internal/run@main
         with:
-            cmd: '"${FCLI_CMD}" sc-sast scan start --publish-to "${SSC_APPVERSION}" -p package.zip -v "${SC_SAST_SENSOR_VERSION}" --store sc_sast_scan'
+            cmd: '"${FCLI_CMD}" sc-sast scan start --publish-to "${SSC_APPVERSION}" -p package.zip -v "${SC_SAST_SENSOR_VERSION}" --store sc_sast_scan --publish-to'
 
       - name: Perform SAST run
         uses: fortify/github-action/internal/run@main
