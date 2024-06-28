@@ -47,7 +47,7 @@ jobs:
       - name: Perform SAST Login
         uses: fortify/github-action/internal/sc-sast-login@main
         env:
-            SSC_URL: ${{secrets.SSC_URL}}                          #http://13.209.176.153:8080/ssc/                              # SSC URL
+            SSC_URL: ${{secrets.SSC_URL}}                          #http://13.209.176.153:8080/ssc/                               # SSC URL
             SSC_TOKEN: ${{secrets.SSC_TOKEN}}                       #f9672e49-8bcc-4123-bb8b-19be432cd9fd                        # SSC CIToken or AutomationToken
             SC_SAST_TOKEN: ${{secrets.SC_SAST_TOKEN}}                    # ScanCentral SAST client auth token
             SC_SAST_SENSOR_VERSION: ${{secrets.SC_SAST_SENSOR_VERSION}}          #24.2.0.0150
